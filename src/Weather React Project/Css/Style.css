@@ -1,0 +1,76 @@
+
+.box{
+    height: 80vh;
+    width: 30vw;
+    background-color: brown;
+    max-width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #010809, #163338, #1e5f6a, #208fa1, #17c2de);
+  border: 3px solid rgb(168, 167, 167);
+}
+
+.inputData> input{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(7, 7, 7);
+    line-height: 1.625;
+    background-color: rgb(206, 239, 245);
+    /* background-image: url( //addsearch.com/logo/AAAAAA-20.png ); */
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    border: 2px black;
+    border-radius: 32px;
+    width: 100%;
+    padding: 15px;
+    cursor: auto;
+}
+
+/* 
+.h2> i{
+    display: block;
+    margin-right: 40px;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(252, 252, 252);
+    margin-top: 30px; 
+    
+} */
+.fa-street-view:before {
+    content: "\f21d";
+    margin-right: 10px;
+}
+.location{
+    color:rgb(252, 252, 252);
+    font-family:cursive;
+    /* padding: 40px;
+    margin-top: 40%;
+    display: flex;
+    align-items: center; */
+    /* letter-spacing: 1px; */
+
+    padding: 70px 0;
+    font-size: 2rem;
+  /* border: 3px solid green; */
+  text-align: center;
+}
+.tempmin_max{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+.temp{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -80px;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 150px
+}
